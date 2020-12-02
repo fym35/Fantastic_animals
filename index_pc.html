@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of animals-z2</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+         
+
+ <style>
+ button {
+  transition-duration: 0.4s;
+}
+button {background-color: #ffff66;} /* Yellow */
+button:hover {
+  background-color: #0033cc; /* Blue */
+  color: blue;
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+</style>
+      
+
+    </head>
+  <body onload="startcreate()" bgcolor=#33ccff link=yellow vlink=white alink=blue>
+<div><p><h1>..........................................Animals..................................</h1><p></div>
+on mobile ? <a href='https://animals-z2.neocities.org/mobile.html'>switch to mobile version</a>
+<br>
+ <button onclick="setthings()">settings</button>  <button onclick="hideall()">hide all</button>
+<br>
+  <!-- divs are showing and hiding in script --> 
+  <br>
+  <br>
+<div style="float:left; width: 250px;">
+
+  <button class="button1"  onclick='showhideanother("krekadiv")'>Kreka Zelena</button> <button onclick='showhideanother("krecekzvire")'>Hamster</button> 
+  <br>
+  <br>
+  
+  <button onclick='showhideanother("casnail")'>Casnail</button> <button onclick='showhideanother("animal7")'>Pelik Obecny</button>
+  <br>
+  <br>
+  <button onclick='showhideanother("shelledpanda")'>Shelled Panda</button> <button class="button2"  onclick='showhideanother("mooz")'>Mooz</button>
+ <br>
+ <br>
+  <button onclick='showhideanother("animal8")'>Animal7</button> <button class="button2"  onclick='showhideanother("animal9")'>Animal 8</button>
+ <br>
+ <br>
+  <button onclick='showhideanother("animal10")'>Animal10</button> <button class="button2"  onclick='showhideanother("animal11")'>Animal 11</button>
+ <br>
+ <br>
+   <button onclick='showhideanother("animal12")'>Animal12</button> <button class="button2"  onclick='showhideanother("animal131")'>Animal 13</button>
+ <br>
+ <br>
+  <button onclick='showhideanother("animal14")'>Animal14</button> <button class="button2"  onclick='showhideanother("animal15")'>Animal 15</button>
+ <br>
+ <br>
+    <button onclick='showhideanother("animal16")'>Animal16</button> <button class="button2"  onclick='showhideanother("animal17")'>Animal 17</button>
+ <br>
+ <br>
+  <button onclick='showhideanother("animal18")'>Animal18</button> <button class="button2"  onclick='showhideanother("animal19")'>Animal 19</button>
+ <br>
+ <br>
+ <button class="button2"  onclick='showhideanother("animal20")'>Animal 20</button>
+</div> 
+ <!-- <button style="
+float:left;" class="button1" onclick="showkreka()">Kreka Zelena</button> <button onclick="()"></button> <button onclick="()"></button>
+ <br> -->
+<!-- <button style="
+float:left;" onclick="showkrecekexample()">Hamster</button> -->
+ <div style="float:left; width: 600px;
+ }"> 
+<!-- div -->
+<!-- kreka div -->
+<!-- divs are showing and hiding in script --> 
+    <div class="anDiv" id="krekadiv" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/kreka_obr.jpg"><img src="imgs/tem/kreka_template.jpg" width="80" height="80"></a>
+    <br>
+    <br>
+    KREKA ZELENA
+    <br>
+    it is green.
+    <br>
+    it lives in jungle or in desert.
+    <br>
+    it can change colours as chameleon.
+    <br>
+    it can also live underwater.
+    </div>
+
+ 
+   <div class="anDiv" id="krecekzvire" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/krecek_examp_obr.gif"><img src="imgs/krecek_examp_obr.gif" width="80" height="80"></a>
+    <br>
+    it is brown.
+    <br>
+    This is hamster
+    <br>
+  
+    </div>
+       <div class="anDiv" id="animal4" style="display:none;"> 
+    <a hCasnref="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/s" width="80" height="80"></a>
+    <br>
+    Casnail
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+   <div class="anDiv" id="animal7" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    Pelik Obecny
+    <br>
+
+    <br>
+    </div>
+       <div class="anDiv" id="animal5" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 5
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+    <div class="anDiv" id="mooz" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/emma-mooz-min-3-edited.png"><img src="imgs/emma-mooz-min-3-edited.png" width="80" height="80"></a>
+    <br>
+    Mooz
+    <br>
+    Mooz is very creative. 
+    <br>
+    Due to its twisted legs, its gait looks as if it is swinging. 
+    <br>
+    It is 60 cm long.
+    <br>
+    It is very nice and likes to make friends.
+    <br>
+    Mooz lives in the rainforest. 
+    <br>
+    It eats flowers. 
+    <br>
+    It builds nests in the tree tops.
+    <br>
+    It sends a signal to attract its partner.
+    <br>
+    It is a nice mixture of three animals: bear, frog and bee
+    <br>
+  
+    </div>
+    <div class="anDiv" id="animal8" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 8
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+      <div class="anDiv" id="animal9" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 9
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+       <div class="anDiv" id="animal10" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 10
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+      <div class="anDiv" id="animal11" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 11
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+          <div class="anDiv" id="animal12" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 12
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+       <div class="anDiv" id="shelledpanda" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/sara-shelled-panda-min.jpg"><img src="imgs/sara-shelled-panda-min.jpg" width="80" height="80"></a>
+    <br>
+    Shelled panda
+    <br>
+    It lives in the jungle. 
+    <br>
+    It can swim.
+    <br>
+    It can hide in its shell. 
+    <br>
+    It is a carnivore.
+       <br>
+    It is a wild animal and it is very dangerous. 
+    <br>
+    It can hurt a person.
+   <br>
+It has a head like a panda. 
+<br>
+It has two horns on its head.
+<br>
+It has two eyes, a trunk, whiskers and a beak on its face.
+<br>
+It has body like a fish.  
+<br>
+It has a tail, two hoofs, a paw and four tentacles. 
+<br>
+It has scales, a fin,  fur and a shell on its body.
+    <br>
+  
+    </div>
+      <div class="anDiv" id="casnail" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/max-casnail_compress62.jpg"><img src="imgs/max-casnail_compress62.jpg" width="80" height="80"></a>
+    <br>
+    It lives in your garden. 
+    <br>
+    It eats grass. 
+    <br>
+    It is 7 cm long. 
+    <br>
+It moves on its small legs.
+<br>
+It sleeps in its shell. 
+<br>
+It is very friendly. It loves other animals.  
+  
+    </div>
+      <div class="anDiv" id="animal15" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 15
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+          <div class="anDiv" id="animal16" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 16
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+      <div class="anDiv" id="animal17" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 17
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+    <div class="anDiv" id="animal18" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 18
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+      <div class="anDiv" id="animal19" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 19
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+    <div class="anDiv" id="animal20" style="display:none;"> 
+    <a href="https://animals-z2.neocities.org/imgs/something.jpg"><img src="/imgs/something.jpg" width="80" height="80"></a>
+    <br>
+    animal 20
+    <br>
+    INfo bla bla bla bla bla 
+    <br>
+  
+    </div>
+    </div>
+<div id="abt" style="position: absolute; width: 110; top: 120px ; left: 650px">
+<br><br><br>
+ABOUT
+<br>
+<br>
+THIS IS SITE ABOUT ANIMALS
+</div>
+<div id="setthings" style="position: absolute; width: 110; top: 120px ; left: 650px;
+display:none;
+}">
+<br><br><br>
+OPTIONS</div>
+    <script src="script.js"></script>
+ 
+
+<!-- script -->
+<script>
+
+function isValidColor1(strColor) {
+  var s = new Option().style;
+  s.color = strColor;
+  // return 'false' if color wasn't assigned
+  return s.color == strColor.toLowerCase();
+}
+</script>
+<script>
+function showkreka() {
+  var x = document.getElementById("krekadiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+</script>
+<script>
+function showkrecekexample() {
+  var k = document.getElementById("krecekzvire");
+  if (k.style.display === "none") {
+    k.style.display = "block";
+  } else {
+    k.style.display = "none";
+  }
+} 
+</script>
+
+<script>
+function setthings(){
+  var nameone = prompt('Set background color (anything = default)');
+  var nametwo = prompt('Set text color (anything = default)');
+  document.body.style.backgroundColor = nameone;
+  document.body.style.color = nametwo;
+}
+</script>
+<script>
+function startcreate(){
+ var anot
+ var nothide
+}
+</script>
+<script>
+function showhideanother(whatshowhide){
+  var st = whatshowhide;
+  nothide = document.getElementById(whatshowhide);
+  var divs = document.getElementsByClassName("anDiv");
+  for(var i = 0; i < divs.length; i++) {
+  divs[i].style.display = "none";
+  }
+  var anot = document.getElementById(whatshowhide);
+  if (anot.style.display === "none") {
+    anot.style.display = "block";
+  } else {
+    anot.style.display = "none";
+  }
+} 
+</script>
+<script>
+function hideall(){
+    var divs = document.getElementsByClassName("anDiv");
+     for(var i = 0; i < divs.length; i++) {
+      divs[i].style.display = "none";
+   }
+}
+</script>
+<script>
+function hidesome(nothide){
+    var nothide = document.getElementById(donthide);
+    var divs = document.getElementsByClassName("anDiv");
+     for(var i = 0; i < divs.length; i++) {
+     divs[i].style.display = "none";
+   }
+   nothide.style.display = "block";
+}
+</script>
+
+
+<noscript>
+<br>
+<br>
+<br>
+<br>
+ For full functionality of this site it is necessary to enable JavaScript.
+ Here are the <a href="https://www.enable-javascript.com/">
+ instructions how to enable JavaScript in your web browser</a>.
+</noscript>
+<br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br><br>
+<br>
+<br>
+<button onclick='alert("error")'>100% working button</button>
+    <!-- <script>  
+        function showhidekreka()
+        {  
+             var div = document.getElementById("kreka");  
+             if (div.style = "display:none") 
+             {  
+                 div.style = "display:block";  
+             }  
+             else
+             {  
+                 div.style = "display:none";  
+             }  
+        }  
+    </script> -->  
+
+
+
+  </body>
+</html>
